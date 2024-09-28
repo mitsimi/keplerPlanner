@@ -31,7 +31,7 @@ const socials: Map<string, Link> = new Map([
         <!-- Branding -->
         <div class="shrink-0 flex items-center">
           <div class="flex items-center mx-4 space-x-[1px]">
-            <IconKepler class="w-5 h-5 -translate-y-[3px]" />
+            <IconKepler class="w-5 h-5 -translate-y-[3px] dark:invert" />
             <span class="text-lg font-semibold tracking-wide"
               >eplerPlanner</span
             >
