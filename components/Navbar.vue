@@ -30,20 +30,10 @@ const socials: Map<string, Link> = new Map([
       <div class="flex justify-between">
         <!-- Branding -->
         <div class="shrink-0 flex items-center">
-          <div class="flex items-center mx-4 space-x-2">
-            <svg
-              fill="currentColor"
-              viewBox="0 0 16 16"
-              height="2em"
-              width="2em"
-            >
-              <path
-                fillRule="evenodd"
-                d="M.11 3.187A.5.5 0 01.5 3h13a.5.5 0 01.488.608l-.22.991a3.001 3.001 0 01-1.3 5.854l-.132.59A2.5 2.5 0 019.896 13H4.104a2.5 2.5 0 01-2.44-1.958L.012 3.608a.5.5 0 01.098-.42zm12.574 6.288a2 2 0 00.866-3.899l-.866 3.9zM1.124 4l1.516 6.825A1.5 1.5 0 004.104 12h5.792a1.5 1.5 0 001.464-1.175L12.877 4H1.123z"
-              />
-            </svg>
+          <div class="flex items-center mx-4 space-x-[1px]">
+            <IconKepler class="w-5 h-5 -translate-y-[3px]" />
             <span class="text-lg font-semibold tracking-wide"
-              >KeplerPlanner</span
+              >eplerPlanner</span
             >
           </div>
         </div>
